@@ -8,7 +8,8 @@ export default defineGkdSubscription({
   name: 'Subscription',
   version: 0,
   author: 'author',
-  checkUpdateUrl: './gkd.version.json5',
+  checkUpdateUrl:
+    'https://raw.githubusercontent.com/dblwen/subscription/main/dist/gkd.json5',
   supportUri: 'https://github.com/gkd-kit/subscription-template',
   categories,
   globalGroups,
