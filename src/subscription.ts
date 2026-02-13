@@ -4,11 +4,12 @@ import categories from './categories';
 import globalGroups from './globalGroups';
 
 export default defineGkdSubscription({
-  id: 233,
+  id: 23326,
   name: 'Subscription',
   version: 0,
   author: 'author',
-  checkUpdateUrl: './gkd.version.json5',
+  checkUpdateUrl:
+    'https://raw.githubusercontent.com/dblwen/subscription/main/dist/gkd.json5',
   supportUri: 'https://github.com/gkd-kit/subscription-template',
   categories,
   globalGroups,
