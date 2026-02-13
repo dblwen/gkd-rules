@@ -18,6 +18,14 @@ export default defineGkdApp({
             '[id="com.hihonor.calendar:id/ad_close_view"][visibleToUser=true]',
           //snapshotUrls: 'https://e.gkd.li/bdc7de64-117d-4f7a-959c-4c3efa33f64b'
         },
+        {
+          key: 1,
+          name: '不感兴趣',
+          fastQuery: true,
+          activityIds: 'com.android.calendar.AllInOneActivity',
+          matches:
+            '[id="com.hihonor.calendar:id/dislike_item_text"][text="不感兴趣"]',
+        },
       ],
     },
   ],
