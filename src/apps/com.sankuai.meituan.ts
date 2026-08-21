@@ -18,5 +18,17 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '月付还款日',
+      desc: '调整月付还款日，点击“暂不修改”关闭弹窗',
+      rules: [
+        {
+          activityIds: 'com.sankuai.eh.framework.EHContainerActivity',
+          matches: '[text="调整月付还款日"] +n [text="暂不修改"]',
+          exampleUrls: 'https://e.gkd.li/3d3600d1-eca2-40d8-a13d-37a07d712fea',
+        },
+      ],
+    },
   ],
 });
