@@ -5,9 +5,9 @@ import globalGroups from './globalGroups';
 
 export default defineGkdSubscription({
   id: 23326,
-  name: 'Subscription',
+  name: 'Clever的GKD订阅',
   version: 0,
-  author: 'author',
+  author: 'Clever',
   checkUpdateUrl:
     'https://raw.githubusercontent.com/dblwen/subscription/main/dist/gkd.json5',
   supportUri: 'https://github.com/gkd-kit/subscription-template',
